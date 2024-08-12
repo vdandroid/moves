@@ -1,0 +1,8 @@
+if (it.isNotEmpty()) {
+                        val number = it.toString().toIntOrNull()
+                        if (number != null) {
+                            if (number < 4 || number > 10) {
+                                editText.error = "Please enter a number between 4 and 10"
+                            }
+                        }
+                    }
